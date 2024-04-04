@@ -1,0 +1,20 @@
+{
+  "name": "kubesimplify-dagger-workshop",
+  "sdk": "go",
+  "dependencies": [
+    {
+      "name": "proxy",
+      "source": "github.com/kpenfound/dagger-modules/proxy@33bc3eef07555d9fd4c22b02ff5c008a71a649e7"
+    },
+    {
+      "name": "backend",
+      "source": "dagger/backend"
+    },
+    {
+      "name": "frontend",
+      "source": "dagger/frontend"
+    }
+  ],
+  "source": "dagger",
+  "engineVersion": "v0.10.3"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "frontend",
+  "sdk": "go",
+  "dependencies": [
+    {
+      "name": "hugo",
+      "source": "github.com/jedevc/daggerverse/hugo@b2b06917e338519a04404347a105a7c3bb316472"
+    }
+  ],
+  "source": ".",
+  "engineVersion": "v0.10.3"
+}
